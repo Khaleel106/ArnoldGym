@@ -6,7 +6,6 @@ import Services from "./Components/Services";
 import Trainer from "./Components/Trainer";
 import Testimonials from "./Components/Testimonials";
 import LocomotiveScroll from "locomotive-scroll";
-import Contact from "./Components/Contact";
 import ContactBox from "./Components/ContactF/ContactBox.jsx";
 import Footer from "./Components/Footer.jsx";
 
