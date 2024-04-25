@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+:root{
+    font-family: gilroy;
+    color-scheme: dark;
+  }
+
+.text-custom-h1{
+    font-size: 9vw;
+}
+.leading-tighter{
+    line-height: 9vw;
+}
+.h1-font{
+    font-family: 'futura';
+}
+#page2 .elem{
+    width: 31%;
+}
+h2{
+    font-family:futura;
+}
+
+@media (max-width :600px){
+    #page2{
+        height: 100%;
+        flex-direction: column;
+        padding: 5vw 3vw;
+    }
+    #page2 .elem{
+        height: 80vh;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+    #page2 .elem .dets{
+        width: 70%;
+    }
+}
