@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Roadmap from "./Roadmap";
 import Benefits from "./Benefits";
+import tpic from "../assets/pic.jpg";
 function loadingAnimation() {
   gsap.from("h3", {
     y: 100,
@@ -63,7 +64,7 @@ const Trainer = () => {
           data-scroll
           data-scroll-speed="0.5"
           className="w-full overflow-hidden lg:w-auto h-auto sm:h-80 lg:h-full rounded-md lg:rounded-none"
-          src="src\assets\pic.jpg"
+          src={tpic}
           alt="transformation"
         />
         <div className="my-11 mx-8 lg:w-1/2 lg:my-auto">
