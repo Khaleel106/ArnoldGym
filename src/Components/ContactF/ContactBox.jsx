@@ -56,11 +56,11 @@ const Contact = () => {
             </li>
             <li>
               <img src={phone_icon} alt="" />
-              +91 9885797478
+              +91 9951257509
             </li>
             <li>
               <img src={location_icon} alt="" />
-              Zina Road , Canara bank upstairs - Proddatur 516360
+              Zinna Road , Canara bank upstairs - Proddatur 516360
               <br /> 1st floor: LadiesGym
               <br />
               2nd floor : GentsGym
