@@ -95,6 +95,13 @@ const Landing = () => {
         From weightlifting to cardio, we've got everything you need to elevate
         your workout routine."
       </h3>
+
+      <h2 className="text-center text-2xl xl:text-6xl mt-10 mb-10">
+        Meet our{" "}
+        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+          Trainer
+        </span>
+      </h2>
        <div
         id="trainer"
         className="w-full h-auto lg:h-screen flex flex-col lg:flex-row items-center justify-between bg-neutral-900 "
