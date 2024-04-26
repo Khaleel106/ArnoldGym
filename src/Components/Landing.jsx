@@ -7,6 +7,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { lgym } from "../constants/index.jsx";
+import vid from "../assets/video.mp4";
 function loadingAnimation() {
   gsap.from("#page1 h1 ", {
     y: 100,
@@ -77,7 +78,7 @@ const Landing = () => {
             muted
             loop
             controls
-            src="src\assets\video.mp4"
+            src={vid}
           ></video>
         </div>
       </div>
