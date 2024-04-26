@@ -1,6 +1,16 @@
 import React, { useState } from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import ser1 from "../assets/brett-jordan-U2q73PfHFpM-unsplash.jpg";
+import ser2 from "../assets/kevin-woblick-LRamvPjq5Ho-unsplash.jpg";
+import ser3 from "../assets/image.png";
+import pro1 from "../assets/pic1.jpg";
+import pro2 from "../assets/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg";
+import pro3 from "../assets/towfiqu-barbhuiya-J6g_szOtMF4-unsplash.jpg";
+import pro4 from "../assets/gordon-cowie-ISg1JhN_vFk-unsplash.jpg";
+import pro5 from "../assets/i-yunmai-5jctAMjz21A-unsplash.jpg";
+import pro6 from "../assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg";
+
 function loadingAnimation() {
   gsap.from("h2", {
     y: 100,
@@ -22,15 +32,15 @@ const Services = () => {
   }, []);
   const [serviceImages] = useState([
     {
-      image: "src/assets/brett-jordan-U2q73PfHFpM-unsplash.jpg",
+      image: ser1,
       name: "ModernEquipment",
     },
     {
-      image: "src/assets/kevin-woblick-LRamvPjq5Ho-unsplash.jpg",
+      image: ser2,
       name: "HQ music",
     },
     {
-      image: "src/assets/image.png",
+      image: ser3,
       name: "AirConditioned",
     },
   ]);
@@ -38,32 +48,32 @@ const Services = () => {
     {
       id: 1,
       text: "MuscleBuilding",
-      image: "src/assets/pic1.jpg",
+      image: pro1,
     },
     {
       id: 2,
       text: "Athletics",
-      image: "src/assets/karsten-winegeart-0Wra5YYVQJE-unsplash.jpg",
+      image: pro2,
     },
     {
       id: 3,
       text: "fatLoss",
-      image: "src/assets/towfiqu-barbhuiya-J6g_szOtMF4-unsplash.jpg",
+      image: pro3,
     },
     {
       id: 4,
       text: "Calistenics",
-      image: "src/assets/gordon-cowie-ISg1JhN_vFk-unsplash.jpg",
+      image: pro4,
     },
     {
       id: 5,
       text: "WeightLoss",
-      image: "src/assets/i-yunmai-5jctAMjz21A-unsplash.jpg",
+      image: pro5,
     },
     {
       id: 6,
       text: "PowerLifting",
-      image: "src/assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg",
+      image: pro6,
     },
   ]);
 
