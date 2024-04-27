@@ -15,8 +15,8 @@ const Navbar = () => {
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
-            <span className="text-4xl">Arnold</span>
-            <span className="text-3xl bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+            <span className="xl:text-4xl lg:text-4xl sm:text-3xl">Arnold</span>
+            <span className="xl:text-4xl lg:text-4xl sm:text-3xl bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
               GymProddatur
             </span>
           </div>
