@@ -16,8 +16,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <span className="text-4xl">Arnold</span>
-            <span className="text-4xl bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-              Gym Proddatur
+            <span className="text-3xl bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+              GymProddatur
             </span>
           </div>
           <ul className="hidden lg:flex ml-14 text-xl space-x-12">
